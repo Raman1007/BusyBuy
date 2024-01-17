@@ -1,0 +1,58 @@
+.Container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.orderContainer {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.orderHeading {
+	color: #224957;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.mainContainer a {
+	font-size: 1.2rem;
+	text-decoration: underline;
+	font-weight: 700;
+	color: #cb75c8;
+}
+
+table {
+	border: 2px solid black;
+	margin: 0 auto 4rem;
+	position: relative;
+	width: 50%;
+}
+
+thead tr th {
+	border: none;
+	padding: 10px;
+	border-bottom: 2px solid #000 !important;
+}
+
+tbody tr td {
+	border: none;
+	padding: 10px;
+}
+
+.orderPrice {
+	bottom: -2.5rem;
+	margin-top: 10px;
+	padding-left: 84.85%;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	width: 13%;
+}
+
+tr td {
+	border: none;
+	padding: 10px;
+}
